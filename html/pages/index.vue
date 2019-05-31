@@ -26,6 +26,11 @@
 
 <script>
 import Logo from '~/components/Logo.vue'
+import firebase from "~/plugins/firebase.js"
+
+const db = firebase.firestore();
+const settings = { timestampsInSnapshots: true };
+db.settings(settings);
 
 export default {
   components: {
