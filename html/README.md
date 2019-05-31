@@ -1,6 +1,6 @@
 # html
 
-> My bedazzling Nuxt.js project
+> My superior Nuxt.js project
 
 ## Build Setup
 
